@@ -70,12 +70,12 @@ export const CardFooter = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #f34848;
+  background: #f7f7f7;
   padding: 10px 0;
   border-radius: 0px 0px 20px 20px;
 `;
 
 export const RecipePrice = styled.span`
-  color: #fff;
+  color: #333;
   font-size: 28px;
 `;
