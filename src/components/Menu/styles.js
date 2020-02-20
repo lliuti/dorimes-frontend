@@ -30,19 +30,26 @@ export const Card = styled.div`
   background: #fff;
   border-radius: 20px;
   box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.2);
+  transition: 350ms ease-in-out;
+
+  &:hover {
+    transform: translateY(-15px);
+    background: #f7f7f7;
+    cursor: pointer;
+  }
 `;
 
 export const CardHeader = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 15px 0;
-  background: #F3486D;
+  padding: 10px 0;
+  background: #f34848;
   border-radius: 20px 20px 0 0;
 `;
 
 export const RecipeTitle = styled.h1`
-  font-size: 22px;
+  font-size: 32px;
   color: #fff;
 `;
 
@@ -63,12 +70,12 @@ export const CardFooter = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #F3486D;
-  padding: 20px 0;
+  background: #f34848;
+  padding: 10px 0;
   border-radius: 0px 0px 20px 20px;
 `;
 
 export const RecipePrice = styled.span`
   color: #fff;
-  font-size: 22px;
+  font-size: 28px;
 `;

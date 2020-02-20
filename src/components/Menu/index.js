@@ -1,6 +1,8 @@
 import React from 'react';
 
 import Carbonara from '../../assets/carbonara.jpg';
+import Pizza from '../../assets/pizza.jpg';
+import Spaghetti from '../../assets/spaghetti.png';
 
 import { 
   Container,
@@ -30,11 +32,31 @@ export default function Menu() {
             <RecipeImage src={Carbonara} />
           </CardBody>
           <CardFooter>
-            <RecipePrice>$13,56</RecipePrice>
+            <RecipePrice>$ 13,56</RecipePrice>
           </CardFooter>
         </Card>
-        <Card></Card>
-        <Card></Card>
+        <Card>
+          <CardHeader>
+            <RecipeTitle>Pizza Top</RecipeTitle>
+          </CardHeader>
+          <CardBody>
+            <RecipeImage src={Pizza} />
+          </CardBody>
+          <CardFooter>
+            <RecipePrice>$ 8,50</RecipePrice>
+          </CardFooter>
+        </Card>
+        <Card>
+          <CardHeader>
+            <RecipeTitle>Spaghetti</RecipeTitle>
+          </CardHeader>
+          <CardBody>
+            <RecipeImage src={Spaghetti} />
+          </CardBody>
+          <CardFooter>
+            <RecipePrice>$ 12,56</RecipePrice>
+          </CardFooter>
+        </Card>
       </CardGroup>
     </Container>
   );
